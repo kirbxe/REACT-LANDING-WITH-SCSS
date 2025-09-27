@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #F7F9FA;
+}
+
+.logonavwrapper {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.navheader {
+  ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 24px;
+
+    li {
+      a {
+        text-decoration: none;
+        color: #33383f;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 31px;
+}
+.textwithbtn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: left;
+  h1 {
+    font-size: 55px;
+    text-align: left;
+    color: #33383f;
+    font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.btnwrapper {
+  display: flex;
+  gap: 24px;
+}
+.logofooter{
+display: flex;
+flex-direction: column;
+
+}
+.navfooter{
+    display: flex;
+    gap: 100px;
+}
+.newsletter{
+
+display: flex;
+flex-direction: column;
+gap: 14px;
+
+    .inputNewsletter{
+        width: 216px;
+        height: 31px;
+        border: none;
+        border-bottom: 1px #33383f solid;
+        padding-left: 15px;
+        padding-top: 4px;
+        padding-bottom: 7px;
+
+        &:focus{
+
+            outline: none;
+
+        }
+
+    }
+}
+

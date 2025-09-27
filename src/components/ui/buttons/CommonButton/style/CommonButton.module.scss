@@ -1,0 +1,18 @@
+.default{
+  background-color: #0070A0;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  cursor: pointer;
+transition: .3s all;
+
+    &:hover{
+
+        background-color: #045577;
+        transition: .3s ease-out;
+
+    }
+}
+

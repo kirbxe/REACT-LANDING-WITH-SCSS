@@ -1,0 +1,22 @@
+.default{
+   font-size: 17px;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+    color: #0070A0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.arrow{
+    &::after{
+    content: '˃';
+    color: #0070A0;
+    transition: transform 0.3s ease;
+
+    }   
+ 
+
+}

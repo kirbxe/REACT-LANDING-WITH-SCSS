@@ -1,0 +1,22 @@
+.navList{
+
+display: flex;
+flex-direction: column;
+gap: 16px;
+    .navTitle{
+    color: black;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li{
+            list-style: none;
+            a{
+                color: #626A72;
+                text-decoration: none;  
+            }   
+        }
+    }
+}
+

@@ -1,0 +1,29 @@
+.carddefault {
+  width: 355px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 40px 32px;
+    gap: 20px;
+  h1{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  img{
+
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.yellow {
+  background-color: #faea73;
+}
+.blue {
+  background-color: #cceff6;
+}
+.pink {
+  background-color: #f7cedc;
+}
+
+
